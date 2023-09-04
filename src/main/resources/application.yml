@@ -1,0 +1,8 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://<usuario>:<senha>@<hostname>/?retryWrites=true&w=majority
+      database: <nome da database>
+  base-url: '*'
+server:
+  port: 8080
